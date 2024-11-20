@@ -36,4 +36,12 @@ $(document).ready(function () {
         },
         
     });
+
+    // mic button click event 
+    $("#MicBtn").click(function () { 
+        eel.playAssistantSound()
+        $("#Ovel").attr("hidden", true);
+        $("#siriwave").attr("hidden", false);
+        
+    });
 });
